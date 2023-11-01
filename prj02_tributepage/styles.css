@@ -1,0 +1,75 @@
+
+html {
+    font-family: Lato, sans-serif;
+    background-color: #EAE7DC;
+  }
+  h1{
+    font-size: 4em;
+    text-align: center;
+    color: #E85A4F;
+    font-family: 'Roboto Mono', monospace;
+  }
+  h1:hover {
+    color: #E98074;
+  }
+  h2 {
+    text-align: center;
+    color: #E98074;
+    font-style: italic;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+  }
+  h3 {
+    text-align: center;
+    color: #E85A4F;
+    font-style: bold;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+  }
+  img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    box-shadow: 5px 5px 10px 2px #8E8D8A;
+    padding: 0.5rem;
+    margin: auto;
+  }
+  #img-caption {
+    text-align: center;
+    margin: 10px 20% 10px 20%;
+    padding: 10px;
+    background-color: #D8C3A5;
+  }
+  #tribute-info {
+    background-color: #D8C3A5;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 10px 15% 10px 15%;
+    display: block;
+    align-self: center;
+  }
+  #timeline {
+    text-align: center;
+    margin: 20px;
+    clear: both;
+  }
+  li {
+    margin: 20px;
+    text-align: justify;
+  }
+  strong {
+   color: #E85A4F;;
+  }
+  .tribute-link-container {
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: auto;
+  }
+  blockquote {
+    text-align: center;
+    display: block;
+    background-color: #D8C3A5;
+    padding: 5px 15px 15px 15px;
+}
