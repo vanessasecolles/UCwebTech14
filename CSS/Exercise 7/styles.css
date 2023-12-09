@@ -1,0 +1,70 @@
+/* complex-layout-styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header, .container, footer {
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #2ecc71;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    color: white;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .featured, .workshops {
+    margin-bottom: 20px;
+  }
+  
+  .featured h2, .workshops h2 {
+    margin-bottom: 10px;
+  }
+  
+  .course, .workshop {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  

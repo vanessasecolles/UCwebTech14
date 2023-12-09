@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  .parent-box {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  .child-box {
+    background-color: #2ecc71;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .grandchild-box {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  

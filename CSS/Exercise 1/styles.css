@@ -1,0 +1,26 @@
+.one{
+	background-color: #d1d100;
+	width: 300px;
+	height: 150px;
+	border: 30px solid purple;
+	padding: 50px;
+	margin: 30px;
+  }
+
+.two{
+	background-color: #7B66FF;
+	width: 300px;
+	height: 150px;
+	border: 40px solid mediumvioletred;
+	padding: 50px;
+	margin: 20px;
+  }
+
+.three{
+	background-color: #00ced1;
+	width: 300px;
+	height: 150px;
+	border: 20px solid magenta;
+	padding: 50px;
+	margin: 10px;
+  }
